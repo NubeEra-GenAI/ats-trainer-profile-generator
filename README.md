@@ -23,9 +23,26 @@ Generate **professional, ATS-optimized trainer profiles** from requirement docum
 ```bash
 git clone https://github.com/yourusername/ats-trainer-profile-generator.git
 cd ats-trainer-profile-generator
+```
+### 2️⃣ Create a virtual environment
+```bash
 python -m venv .venv
 source .venv/bin/activate   # On Linux/Mac
 .venv\Scripts\activate      # On Windows
 pip install -r requirements.txt
-export OPENAI_API_KEY="sk-xxxx"      # Linux/Mac
 ```
+```bash
+export OPENAI_API_KEY="sk-xxxx"      # Linux/Mac
+setx OPENAI_API_KEY "sk-xxxx"        # Windows PowerShell
+```
+### ▶️ Usage: Run the Streamlit app:
+```bash
+streamlit run app.py
+```
+- Upload requirements.docx (training request from client)
+
+- Upload profile.docx (your current trainer profile)
+
+- Click Generate Profile
+
+- Download your new ATS-optimized trainer profile 🎉
