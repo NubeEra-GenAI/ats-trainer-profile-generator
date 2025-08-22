@@ -11,7 +11,7 @@ from openai import OpenAI
 # -------------------------
 # Config
 # -------------------------
-OPENROUTER_API_KEY = os.getenv(OPENROUTER_API_KEY)  # put your key here
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")  # put your key here
 OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions"
 MODEL = "mistralai/mistral-small-3.1-24b-instruct:free"
 
