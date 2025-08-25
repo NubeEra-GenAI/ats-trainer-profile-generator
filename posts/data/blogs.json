@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "DevOps – Bridging Development & Operations for Agile Success",
+    "title": "DevOps \u2013 Bridging Development & Operations for Agile Success",
     "slug": "devops",
     "author": "Mujahid Hussaini",
     "date": "2025-07-11",
@@ -29,5 +29,18 @@
     ],
     "image": "assets/img/icons/aws-azure-google-1.webp",
     "description": "Learn the basics of cloud computing, including models, services, and how to use them efficiently in modern development."
+  },
+  {
+    "id": 3,
+    "title": "MCP vs AIOPs",
+    "slug": "mcp-vs-aiops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-08-25",
+    "tags": [
+      "MCP vs AIOPs"
+    ],
+    "readingTime": "7 min read",
+    "image": "assets/img/icons/default.png",
+    "description": ""
   }
 ]
