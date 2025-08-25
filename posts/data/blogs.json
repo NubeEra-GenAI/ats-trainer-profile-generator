@@ -1,0 +1,33 @@
+[
+  {
+    "id": 1,
+    "title": "DevOps – Bridging Development & Operations for Agile Success",
+    "slug": "devops",
+    "author": "Mujahid Hussaini",
+    "date": "2025-07-11",
+    "tags": [
+      "DevOps",
+      "CI/CD",
+      "Automation",
+      "Cloud"
+    ],
+    "readingTime": "8 min read",
+    "image": "assets/img/icons/dev(fsd).png",
+    "description": "Discover how DevOps aligns teams to streamline delivery, automate workflows, and improve collaboration for agile success."
+  },
+  {
+    "id": 2,
+    "title": "Learning Cloud Computing",
+    "slug": "learning-cloud-computing",
+    "author": "Mujahid Hussaini",
+    "date": "2023-10-27",
+    "tags": [
+      "Cloud Computing",
+      "AWS",
+      "Azure",
+      "Google Cloud"
+    ],
+    "image": "assets/img/icons/aws-azure-google-1.webp",
+    "description": "Learn the basics of cloud computing, including models, services, and how to use them efficiently in modern development."
+  }
+]
