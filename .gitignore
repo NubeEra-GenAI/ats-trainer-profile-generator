@@ -1,0 +1,4 @@
+.venv
+.venv/bin/
+.venv/bin/activate
+.venv/bin/activate.fish

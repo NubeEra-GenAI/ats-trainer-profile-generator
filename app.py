@@ -34,7 +34,7 @@ def create_docx_clean(text):
 
         # Section headings
         if line.upper() in [
-            "SUMMARY", "KEY SKILLS", "INDUSTRIAL WORKING EXPERIENCE",
+            "SUMMARY", "SKILLS", "INDUSTRIAL WORKING EXPERIENCE",
             "CORPORATE TRAINING EXPERIENCE", "RETAIL TRAINING EXPERIENCE",
             "MATERIAL EXPERIENCE", "CERTIFICATIONS", "EDUCATION", "PERSONAL DETAILS"
         ]:
@@ -61,15 +61,16 @@ TASK:
 - Rewrite the trainer profile using the given requirements.
 - Keep the document structure professional and ATS-friendly.
 - Section order:
-  1. Summary
-  2. Key Skills (with categories AND representative technology keywords, e.g. Big Data (Spark, Kafka, Hadoop))
-  3. Industrial Working Experience (per client: Client, Focus, Technologies (categories + key tools), Achievements)
-  4. Corporate Training Experience
-  5. Retail Training Experience
-  6. Material Experience
-  7. Certifications
-  8. Education
-  9. Personal Details
+  1. Title(Use Heading 1 include Name - Mujahed H.) & Sub title(use Heading 2 suggest best title like: Cloud DevOps Trainer, AI Trainer) 
+  2. Summary(This should be match what requirements weshared with you)
+  3. Skills (with categories AND representative technology keywords, e.g. Big Data (Spark, Kafka, Hadoop) or DevOps (Jenkins, Ansible, Terraform, Github))
+  4. Industrial Working Experience (per client: Client, Focus, Technologies (categories + key tools), Achievements)
+  5. Corporate Training Experience
+  6. Retail Training Experience
+  7. Material Experience
+  8. Certifications
+  9. Education
+  10. Personal Details
 - Replace long raw tool dumps with concise categories, but keep keyword coverage for ATS.
 - Output plain text only (no Markdown # or **).
 
